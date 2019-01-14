@@ -14,6 +14,8 @@
 Auth::routes();
 
 // Search
+
+// agregado un coebtarios en las rutas 
 Route::get('/search/',['uses' => 'HomeController@search','as' => 'search']);
 
 // Home
